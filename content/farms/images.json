@@ -1,0 +1,62 @@
+[
+  {
+    "file": "Retreat-top-lot-4.jpg",
+    "src": "/images/Retreat-top-lot-4.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "Hibiscus-07.jpg",
+    "src": "/images/Hibiscus-07.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "Retreat.16.jpg",
+    "src": "/images/Retreat.16.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "TheRetreat.28.jpg",
+    "src": "/images/TheRetreat.28.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "Retreat.1.jpg",
+    "src": "/images/Retreat.1.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "Wine-sunset-2.jpg",
+    "src": "/images/Wine-sunset-2.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "TheRetreat.47.jpg",
+    "src": "/images/TheRetreat.47.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "Retreat-527.jpg",
+    "src": "/images/Retreat-527.jpg",
+    "source": "retreat-reuse"
+  },
+  {
+    "file": "gen-harvest-crate.png",
+    "src": "/images/gen-harvest-crate.png",
+    "role": "category-greens"
+  },
+  {
+    "file": "gen-coffee-cherries.png",
+    "src": "/images/gen-coffee-cherries.png",
+    "role": "category-coffee"
+  },
+  {
+    "file": "gen-farm-rows.png",
+    "src": "/images/gen-farm-rows.png",
+    "role": "hero-atmosphere"
+  },
+  {
+    "file": "gen-bread-still.png",
+    "src": "/images/gen-bread-still.png",
+    "role": "category-goods"
+  }
+]

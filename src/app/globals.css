@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "@bluemountain/brand/styles.css";
+
+:root {
+  --font-sans: var(--font-public-sans), "Public Sans", ui-sans-serif, system-ui,
+    sans-serif;
+  --font-display: var(--font-public-sans), "Public Sans", ui-sans-serif,
+    system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+[data-site="farms"] .display,
+[data-site="farms"] .h2 {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

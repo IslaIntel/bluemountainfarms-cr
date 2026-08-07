@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Blue Mountain Farms",
+    "description": "Certified Blue Zone organics from the Blue Mountains of Guanacaste — harvested Monday & Thursday, delivered Tuesday & Friday."
+  },
+  "hero": {
+    "eyebrow": "Blue Zone organics",
+    "title": "Harvested at dawn. At your door in eighteen hours.",
+    "body": "The freshest organics from Costa Rica’s Blue Zone — create a weekly box or order à la carte."
+  },
+  "rhythm": [
+    {
+      "title": "Harvested Mon & Thu at dawn",
+      "body": "We pick when produce is at peak — not when a warehouse schedule says so."
+    },
+    {
+      "title": "Packed & cooled the same morning",
+      "body": "Hygienic, thoughtful packing that keeps nutrients and crunch locked in."
+    },
+    {
+      "title": "Delivered Tue & Fri",
+      "body": "Refrigerated routes across Guanacaste. Field to kitchen in about eighteen hours."
+    }
+  ],
+  "growers": [
+    {
+      "name": "Blue Mountain Farms",
+      "focus": "Greens, herbs, roots & coffee",
+      "note": "Our home farm in the Blue Mountains — the same land that hosts The Retreat."
+    },
+    {
+      "name": "Neighbor growers",
+      "focus": "Seasonal fruits & specialty crops",
+      "note": "Small-scale certified organic partners around Chinampas and the Nicoya peninsula."
+    }
+  ],
+  "wholesale": {
+    "title": "For restaurants & hotels",
+    "body": "Standing orders, weekly availability lists, and refrigerated delivery for kitchens that care about provenance.",
+    "businessTypes": [
+      "Restaurant",
+      "Hotel",
+      "Villa",
+      "Caterer",
+      "Retailer"
+    ],
+    "whatsapp": "https://wa.me/50672142346"
+  },
+  "shopUrl": "https://bluemountainfarms.cr/shop/",
+  "commerceEnabled": false
+}

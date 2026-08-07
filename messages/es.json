@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "how": "Cómo funciona",
+    "ready": "Esta semana",
+    "wholesale": "Restaurantes",
+    "shop": "Tienda",
+    "order": "Ordenar ahora"
+  },
+  "utility": {
+    "zones": "Entrega Guanacaste",
+    "nextHarvest": "Próxima cosecha",
+    "orderBy": "Ordene antes de"
+  },
+  "hero": {
+    "eyebrow": "Orgánicos de Zona Azul",
+    "title": "Cosechado al amanecer. En su puerta en dieciocho horas.",
+    "body": "Arme una caja semanal o pida al detalle — cosecha lunes y jueves, entrega martes y viernes.",
+    "primary": "Armar su caja",
+    "secondary": "Vender a su restaurante"
+  },
+  "rhythm": {
+    "eyebrow": "El ritmo de cosecha",
+    "title": "Nuestra logística es la marca"
+  },
+  "ready": {
+    "eyebrow": "Lo que está listo",
+    "title": "Lo mejor de esta semana",
+    "outOfSeason": "Regresa en",
+    "viewShop": "Ver tienda completa"
+  },
+  "place": {
+    "eyebrow": "Dónde crece",
+    "title": "Montañas Azules, Zona Azul",
+    "body": "Suelo volcánico, sol todo el año y métodos agrícolas de generaciones — organicos de una de las regiones de longevidad de Costa Rica."
+  },
+  "growers": {
+    "eyebrow": "Los productores",
+    "title": "Tierra con nombre, personas con nombre"
+  },
+  "wholesale": {
+    "eyebrow": "B2B",
+    "title": "Para restaurantes y hoteles",
+    "body": "Pedidos fijos, disponibilidad semanal y entrega refrigerada para cocinas que valoran la procedencia.",
+    "cta": "Solicitar mayoreo",
+    "name": "Nombre",
+    "email": "Correo",
+    "business": "Negocio",
+    "type": "Tipo de negocio",
+    "message": "Notas",
+    "submit": "Enviar solicitud",
+    "whatsapp": "Ordenar por WhatsApp"
+  },
+  "box": {
+    "eyebrow": "Vista previa fase 2",
+    "title": "Arme su caja",
+    "body": "El constructor de cajas por ventana de cosecha está preparado para la fase 2. Por ahora, ordene en la tienda o por WhatsApp.",
+    "cta": "Abrir tienda actual"
+  },
+  "footer": {
+    "tagline": "Orgánicos certificados de Zona Azul en Chinampas, Guanacaste",
+    "shop": "Tienda",
+    "retreat": "The Retreat"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "how": "How it works",
+    "ready": "This week",
+    "wholesale": "Restaurants",
+    "shop": "Shop",
+    "order": "Order now"
+  },
+  "utility": {
+    "zones": "Guanacaste delivery",
+    "nextHarvest": "Next harvest",
+    "orderBy": "Order by"
+  },
+  "hero": {
+    "eyebrow": "Blue Zone organics",
+    "title": "Harvested at dawn. At your door in eighteen hours.",
+    "body": "Create a weekly box or order à la carte — picked Monday & Thursday, delivered Tuesday & Friday.",
+    "primary": "Start your box",
+    "secondary": "Sell to your restaurant"
+  },
+  "rhythm": {
+    "eyebrow": "The harvest rhythm",
+    "title": "Our logistics are the brand"
+  },
+  "ready": {
+    "eyebrow": "What's ready",
+    "title": "This week's peak",
+    "outOfSeason": "Back in",
+    "viewShop": "Browse full shop"
+  },
+  "place": {
+    "eyebrow": "Where it grows",
+    "title": "Blue Mountains, Blue Zone",
+    "body": "Volcanic soil, year-round sun, and farming methods handed down for generations — organics from one of Costa Rica’s legendary longevity regions."
+  },
+  "growers": {
+    "eyebrow": "The growers",
+    "title": "Named land, named people"
+  },
+  "wholesale": {
+    "eyebrow": "B2B",
+    "title": "For restaurants & hotels",
+    "body": "Standing orders, weekly availability, refrigerated delivery for kitchens that care about provenance.",
+    "cta": "Apply for wholesale",
+    "name": "Name",
+    "email": "Email",
+    "business": "Business name",
+    "type": "Business type",
+    "message": "Notes",
+    "submit": "Send application",
+    "whatsapp": "Order on WhatsApp"
+  },
+  "box": {
+    "eyebrow": "Phase 2 preview",
+    "title": "Build your box",
+    "body": "The harvest-window box builder is stubbed for phase 2. For now, order on the live shop or WhatsApp.",
+    "cta": "Open live shop"
+  },
+  "footer": {
+    "tagline": "Certified Blue Zone organics from Chinampas, Guanacaste",
+    "shop": "Shop",
+    "retreat": "The Retreat"
+  }
+}
