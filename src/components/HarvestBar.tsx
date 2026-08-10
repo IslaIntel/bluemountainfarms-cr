@@ -22,7 +22,10 @@ export function HarvestBar({ locale }: { locale: "en" | "es" }) {
   }, [locale, t]);
 
   return (
-    <div className="border-b border-[color:var(--sand)] bg-[color:var(--ground-alt)]">
+    <div
+      data-utility-bar
+      className="border-b border-[color:var(--sand)] bg-[color:var(--ground-alt)]"
+    >
       <div className="container flex flex-wrap items-center justify-between gap-3 py-2 text-sm">
         <p className="eyebrow !normal-case !tracking-normal text-[color:var(--ink)]">
           {t("zones")}

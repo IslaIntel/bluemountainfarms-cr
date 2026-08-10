@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
+import { gsap, registerScrollTrigger } from "../lib/motion";
+import { useMotionEffect } from "../lib/use-motion-effect";
 import { cn } from "../lib/cn";
 
-gsap.registerPlugin(ScrollTrigger);
+registerScrollTrigger();
 
 type RevealProps = {
   as?: "h1" | "h2" | "h3" | "h4" | "p" | "div" | "span";
@@ -17,6 +17,9 @@ type RevealProps = {
 /**
  * Per-line clip-path wipe (Reschio pattern).
  * Visual lines are aria-hidden; full string lives in aria-label.
+ *
+ * Lines are hidden on mount rather than in the server markup, so a crawler — or
+ * anyone whose JavaScript fails — still gets the heading.
  */
 export function Reveal({
   as: Tag = "div",
@@ -26,20 +29,12 @@ export function Reveal({
 }: RevealProps) {
   const ref = useRef<HTMLElement>(null);
 
-  useEffect(() => {
+  useMotionEffect(() => {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const lines = el.querySelectorAll<HTMLElement>("[data-reveal-line]");
-
-    if (reduce) {
-      lines.forEach((line) => {
-        line.style.clipPath = "inset(0 0 0 0)";
-        line.style.opacity = "1";
-      });
-      return;
-    }
 
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -90,12 +85,7 @@ export function Reveal({
           key={`${line}-${i}`}
           data-reveal-line
           aria-hidden="true"
-          style={{
-            display: "block",
-            overflow: "hidden",
-            clipPath: "inset(100% 0 0 0)",
-            opacity: 0,
-          }}
+          style={{ display: "block", overflow: "hidden" }}
         >
           {line}
         </span>

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "@bluemountain/brand/styles.css";
 
+/* The shared package lives outside this app's auto-detected sources (and inside
+   node_modules via the workspace symlink), so its utilities need scanning too. */
+@source "../../packages/brand/src";
+
 :root {
   --font-sans: var(--font-public-sans), "Public Sans", ui-sans-serif, system-ui,
     sans-serif;
@@ -19,4 +23,16 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+/* Concept previews own the full viewport: each variant ships its own nav and
+   footer, so the shared site chrome steps aside. */
+[data-site]:has([data-concept-shell]) > header,
+[data-site]:has([data-concept-shell]) > footer,
+[data-site]:has([data-concept-shell]) > [data-utility-bar] {
+  display: none;
+}
+
+[data-concept-shell] {
+  --nav-h: 0px;
 }
